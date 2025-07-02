@@ -6,7 +6,7 @@ import seaborn as sns
 
 st.set_page_config(page_title = "Starbucks EDA App", layout = "wide", page_icon= "☕")
 
-df = pd.read_csv("data/cleaned_starbucks.csv")
+df = pd.read_csv("cleaned_starbucks.csv")
 
 # Navigation bar
 st.sidebar.title("☕ The Starbucks EDA App")
