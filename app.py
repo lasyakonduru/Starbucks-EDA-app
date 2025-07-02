@@ -1,9 +1,4 @@
 # YOUR APP HERE!
-import streamlit as st
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-
 st.set_page_config(page_title = "Starbucks EDA App", layout = "wide", page_icon= "☕")
 
 df = pd.read_csv("cleaned_starbucks.csv")
